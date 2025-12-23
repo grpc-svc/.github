@@ -6,9 +6,10 @@ A microservices architecture demo featuring gRPC communication, JWT authenticati
 
 | Service | Description | Stack |
 |---------|-------------|-------|
-| **[SSO](./sso)** | Authentication service with gRPC API | Go, gRPC, SQLite, JWT, Argon2 |
-| **[URL Shortener](./url-shortener)** | URL shortening with auth integration | Go, Chi, gRPC client, SQLite, Prometheus |
-| **[Infrastructure](./infra)** | Monitoring stack | Prometheus, Grafana, Docker Compose |
+| **[SSO](https://github.com/grpc-svc/sso)** | Authentication service with gRPC API | Go, gRPC, SQLite, JWT, Argon2 |
+| **[URL Shortener](https://github.com/grpc-svc/url-shortener)** | URL shortening with auth integration | Go, Chi, gRPC client, SQLite, Prometheus |
+| **[Infrastructure](https://github.com/grpc-svc/infra)** | Monitoring stack | Prometheus, Grafana, Docker Compose |
+| **[Protos](https://github.com/grpc-svc/protos)** | Shared protocol buffer definitions | Protocol Buffers, gRPC, API contracts |
 
 ## Architecture
 
